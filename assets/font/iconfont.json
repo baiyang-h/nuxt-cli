@@ -1,0 +1,100 @@
+{
+  "id": "3435560",
+  "name": "self",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "私人项目图标库",
+  "glyphs": [
+    {
+      "icon_id": "4347518",
+      "name": "icon_发布",
+      "font_class": "icon_fabu",
+      "unicode": "eb88",
+      "unicode_decimal": 60296
+    },
+    {
+      "icon_id": "2076240",
+      "name": " 筛选",
+      "font_class": "shaixuan",
+      "unicode": "e888",
+      "unicode_decimal": 59528
+    },
+    {
+      "icon_id": "3456457",
+      "name": "设置",
+      "font_class": "shezhi",
+      "unicode": "e70f",
+      "unicode_decimal": 59151
+    },
+    {
+      "icon_id": "5387948",
+      "name": "全屏_o",
+      "font_class": "quanping_o",
+      "unicode": "eb99",
+      "unicode_decimal": 60313
+    },
+    {
+      "icon_id": "12752509",
+      "name": "锁定",
+      "font_class": "suoding_huaban",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "4937000",
+      "name": "github-fill",
+      "font_class": "github-fill",
+      "unicode": "e960",
+      "unicode_decimal": 59744
+    },
+    {
+      "icon_id": "2471334",
+      "name": "表单",
+      "font_class": "biaodan",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "2471360",
+      "name": "工具",
+      "font_class": "gongju",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "5387863",
+      "name": "表格_o",
+      "font_class": "biaoge_o",
+      "unicode": "eb76",
+      "unicode_decimal": 60278
+    },
+    {
+      "icon_id": "12515461",
+      "name": "权限",
+      "font_class": "quanxian",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "21529712",
+      "name": "m-嵌套",
+      "font_class": "m-qiantao",
+      "unicode": "e802",
+      "unicode_decimal": 59394
+    },
+    {
+      "icon_id": "21758111",
+      "name": "缓存中心",
+      "font_class": "huancunzhongxin",
+      "unicode": "e6af",
+      "unicode_decimal": 59055
+    },
+    {
+      "icon_id": "4766685",
+      "name": "home",
+      "font_class": "home",
+      "unicode": "e801",
+      "unicode_decimal": 59393
+    }
+  ]
+}

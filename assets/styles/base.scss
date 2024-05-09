@@ -1,0 +1,133 @@
+/* @import './iconfont/iconfont.css'; */
+
+body {
+  --vt-c-white: #ffffff;
+  --vt-c-white-soft: #f8f8f8;
+  --vt-c-white-mute: #f2f2f2;
+
+  --vt-c-black: #181818;
+  --vt-c-black-soft: #222222;
+  --vt-c-black-mute: #282828;
+
+  --vt-c-indigo: #2c3e50;
+
+  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
+  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
+
+  --vt-c-text-light-1: var(--vt-c-indigo);
+  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
+  --vt-c-text-dark-1: var(--vt-c-white);
+  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+}
+
+/* semantic color variables for this project */
+body {
+  --color-background: var(--vt-c-white);
+  --color-background-soft: var(--vt-c-white-soft);
+  --color-background-mute: var(--vt-c-white-mute);
+
+  --color-border: var(--vt-c-divider-light-2);
+  --color-border-hover: var(--vt-c-divider-light-1);
+
+  --color-heading: var(--vt-c-text-light-1);
+  --color-text: var(--vt-c-text-light-1);
+
+  --section-gap: 160px;
+
+
+}
+
+/* vant style */
+body {
+  /* 品牌色 */
+  --c-key: #C39253;  /* 用于特别需要强调、突出的文字、按钮和ICON、底部标签栏选中状态 */
+  --c-key2: #B5ED34;  /* 用于特别需要强调、突出的文字、按钮和ICON、底部标签栏选中状态 */
+  --c-key3: #A1D42A;  /* 用于特别需要强调、突出的文字、按钮和ICON、底部标签栏选中状态 */
+
+  /* 辅助色 */
+  --c-red: #ff4b3d; /* 用于需要强调的标签、风控警示提醒文字、删除提示、消息提示点 */
+  --c-blue: #4f89ff; /* 用于客服相关按钮、icon和订单Pengding状态 */
+  --c-green: #38A608; /* 用于成功相关提醒 */
+  --c-orange: #FE7011; /* 用于优惠券相关 */
+
+  /* 文字颜色 */
+  --t-1: #16181C; /* 用于所有标题、重要正文、部分按钮色 */
+  --t-2: #9D9CB0; /* 用于辅助性文字、底部标签栏未选中图标 */
+  --t-3: #C5C5D8; /* 用于输入框提示文案、不可点击状态的文字按钮 */
+  --t-4: #ffffff; /* 按钮白色字体 */
+
+  /* 背景 */
+  --bg-1: #ffffff; /* 用于基础层、灰色背景架高层、弹窗 */
+  --bg-2: #f4f3f7; /* 用于部分基础层 */
+  --bg-3: #DBDADF; /* 用于输入框描边 */
+  --bg-4: #D2D1D7; /* 用于分割线 */
+
+
+  /* 边框圆角 */
+  --bor-radius: 2px;
+
+  /* 渐变色 */
+  --g-blue: linear-gradient(180deg, #0083FE 0%, #245CF5 100%); /* Naira钱包 */
+  --g-green: linear-gradient(180deg, #41B109 0%, #3A9C09 100%); /* Dollars钱包 */
+  --g-black: linear-gradient(180deg, #43435A 0%, #2F2F3A 100%); /* BTC钱包 */
+
+  /* 字体大小 */
+  --t-size-1: 21px; /* 64 用于导航栏居中标题、钱包余额、礼品卡交易页礼品卡名称 */
+  --t-size-2: 18px; /* 56 用于一级重要标题/一级重要按钮 */
+  --t-size-3: 15px; /* 48 用于二级标题、着重突出文案、首页热门卡种名称、输入框标题、输入文案 */
+  --t-size-4: 13px; /* 40 用于弹窗提示文案、信息正文、数据展示、风控提示文字、文字操作按钮 */
+  --t-size-5: 10px; /* 32 30用于数据展示、辅助提示性文字、注重角标文字、底部标签栏选中项、常规角标文字、底部标签栏未选中项 */
+
+  /* navbar */
+  --van-nav-bar-title-font-size: var(--t-size-1);
+  --van-nav-bar-title-text-color: var(--t-1);
+  --van-nav-bar-icon-color: var(--t-1);
+  --van-nav-bar-text-color: var(--c-key);
+
+  /* button */
+  --van-button-primary-background: #0B0E26;
+  --van-button-primary-border-color: #0B0E26;
+  --van-button-radius: var(--bor-radius);
+  --van-button-success-background: linear-gradient(90deg, #DBFB50 0%, #B5ED34 100%);;
+  --van-button-success-border-color: #A1D42A;
+  --van-button-success-color: #151E0C;
+
+  /* tabbar */
+  --van-tabbar-item-active-color: #0B0E26;
+  --van-tabbar-item-text-color: #A5A6B3;
+  --van-tabbar-item-font-size: var(--t-size-5);
+  --van-tabbar-item-line-height: 12px;
+
+  /* uploader */
+  --van-uploader-upload-background: #fff;
+  --van-uploader-size: 64px;
+  --van-uploader-icon-color: #CCCAD1;
+  --van-uploader-icon-size: 50px;
+  --van-uploader-delete-icon-size: 16px;
+
+  /* popup */
+  --van-popup-round-radius: 5px;
+
+  /* empty */
+  --van-empty-description-font-size: var(--t-size-4);
+  --van-empty-description-color: #A5A6B3;
+
+  /* list */
+  --van-list-text-color: #0B0E26;
+  --van-list-text-font-size: var(--t-size-4);
+  --van-list-text-line-height: 50px;
+  --van-list-loading-icon-size: var(--t-size-3);
+
+  /* dialog */
+  --van-dialog-font-size: var(--t-size-3);
+  --van-dialog-width: 345px;
+  --van-dialog-message-font-size: var(--t-size-4);
+  --van-dialog-confirm-button-text-color: #ee0a24;
+
+  /* picker */
+  --van-picker-confirm-action-color: var(--c-key2);
+
+  --van-overlay-background: rgba(0, 0, 0, 0.4);
+}
